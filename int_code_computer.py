@@ -143,7 +143,6 @@ class Int_Code_Comp(object):
             time.sleep(.25)
         return self.ram[0]
 
-
     def main(self):
         for program_name, program in grams.programs.items():
             print(f"starting Work on {program_name} Debug")
